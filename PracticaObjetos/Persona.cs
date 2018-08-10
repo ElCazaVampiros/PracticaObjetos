@@ -8,22 +8,25 @@ namespace PrácticaObjetos
 {
     class Persona
     {
+        //Modificadores de acceso
+        //public y private
+
         // Atributos
         // Definidos a través de variables
-        string nombre;
-        string apellidos;
-        string fechaNacimiento;
-        int edad;
-        float altura;
+        public string nombre;
+        public string apellidos;
+        public string fechaNacimiento;
+        public int edad;
+        public float altura;
 
         // Métodos
         // Definidos a través de funciones
-        void cumplirAños()
+        public void cumplirAños()
         {
             edad += 1;
         }
 
-        void crecer(float cantidadCrecimiento)
+        public void crecer(float cantidadCrecimiento)
         {
             altura += cantidadCrecimiento;
         }
